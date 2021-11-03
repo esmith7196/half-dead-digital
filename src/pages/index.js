@@ -11,7 +11,6 @@ const Index = ({ data }) => {
     <Layout>
       <section className="section">
         <HeaderBlock data={data.dataJson} images={data.allMarkdownRemark.nodes} />
-        <p>hifhsdifhisdfhiosd</p>
         <Particle></Particle>
       </section>
     </Layout>

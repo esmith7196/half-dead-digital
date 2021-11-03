@@ -18,13 +18,14 @@ const HeaderBlock = ({ data, images }) => {
 
   return (
     <div className="header-block container" style={{ color: 'white' }}>
-      <div className="columns">
-        <div className="column">
+      <div className="columns is-7">
+        <div className="column ">
           <img className="image" src={data.primaryLogo} alt="The Half Dead" />
           <p>{data.description}</p>
         </div>
-        <div className="column">
+        <div className="column is-5">
           <img
+            className="header-images"
             src={images[activeImage].frontmatter.image.childImageSharp.fixed.srcWebp}
             alt={images[activeImage].frontmatter.name}
           />
