@@ -42,6 +42,10 @@ collections:
             name: aboutTitle
             label: About Title
             required: true
+          - widget: text
+            name: aboutDescription
+            label: About Description
+            required: true
           - label: 'Drop Date'
             name: 'dropDate'
             widget: 'date'
