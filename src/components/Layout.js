@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
+import halfDeadIcon from '../img/half-dead-icon.png';
+import halfDeadSmall from '../img/half-dead-small.png';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -18,18 +20,8 @@ const TemplateWrapper = ({ children }) => {
           sizes="180x180"
           href={`${withPrefix('/')}img/apple-touch-icon.png`}
         />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/half-dead-icon.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/half-dead-icon.png`}
-          sizes="16x16"
-        />
+        <link rel="icon" type="image/png" href={halfDeadIcon} sizes="32x32" />
+        <link rel="icon" type="image/png" href={halfDeadIcon} sizes="16x16" />
 
         <link
           rel="mask-icon"
@@ -41,7 +33,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
-        <meta property="og:image" content={`${withPrefix('/')}img/half-dead-small.png`} />
+        <meta property="og:image" content={halfDeadSmall} />
       </Helmet>
       <main>{children}</main>
     </div>
