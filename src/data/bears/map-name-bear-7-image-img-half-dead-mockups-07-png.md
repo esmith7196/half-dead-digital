@@ -1,4 +1,4 @@
 ---
-name: Bear 7
+name: Bear 6
 image: /img/half-dead-mockups-07.png
 ---
