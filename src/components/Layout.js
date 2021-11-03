@@ -4,7 +4,7 @@ import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
 import halfDeadIcon from '../img/half-dead-icon.png';
-import halfDeadSmall from '../img/half-dead-small.png';
+import halfDeadSmall from '../img/hd.png';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
