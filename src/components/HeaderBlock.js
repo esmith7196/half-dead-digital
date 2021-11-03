@@ -11,13 +11,13 @@ const HeaderBlock = ({ data, images }) => {
       } else {
         setActiveImage(activeImage + 1);
       }
-    }, 250);
+    }, 300);
 
     return () => clearInterval(intervalId); //This is important
   }, [activeImage]);
 
   return (
-    <div className="header-block container" style={{ color: 'white' }}>
+    <div className="header-block" style={{ color: 'white' }}>
       <div className="columns is-7">
         <div className="column ">
           <img className="image" src={data.primaryLogo} alt="The Half Dead" />
