@@ -1,4 +1,4 @@
 ---
-name: Bear 3
-image: /img/half-dead-mockups-04.png
+name: Half Dead axe bear
+image: /img/half-dead-mockups-07.png
 ---
