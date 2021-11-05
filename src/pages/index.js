@@ -7,6 +7,7 @@ import HeaderBlock from '../components/HeaderBlock';
 import AboutBlock from '../components/AboutBlock';
 import Collection from '../components/Collection';
 import Footer from '../components/Footer';
+import OriginStory from '../components/OriginStory';
 
 const Index = ({ data }) => {
   console.log('data: ', data);
@@ -17,6 +18,7 @@ const Index = ({ data }) => {
           <HeaderBlock data={data.dataJson} images={data.allMarkdownRemark.nodes} />
           <AboutBlock data={data.dataJson} />
           <Collection data={data.allMarkdownRemark.nodes} />
+		  <OriginStory data={data.} />
           <Particle></Particle>
         </div>
       </section>
@@ -36,6 +38,7 @@ export const query = graphql`
       dropDate
       primaryLogo
       footerLogo
+      aboutDescription
     }
     allMarkdownRemark {
       nodes {
