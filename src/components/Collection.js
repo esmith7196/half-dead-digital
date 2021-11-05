@@ -4,7 +4,7 @@ const Collection = ({ data }) => {
   return (
     <div className="collection-container">
       <div className="with-underline">
-        <h1 className="title has-text-centered">The Half Bear NFT Collection</h1>
+        <h1 className="title has-text-centered">The Half Dead Collection</h1>
         <span></span>
       </div>
 
