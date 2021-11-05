@@ -15,10 +15,21 @@ const Index = ({ data }) => {
     <Layout>
       <section className="section">
         <div className="container">
-          <HeaderBlock data={data.dataJson} images={data.allMarkdownRemark.nodes} />
+          <HeaderBlock
+            data={data.dataJson}
+            images={data.allMarkdownRemark.nodes.filter(
+              ({ frontmatter }) => frontmatter.name !== null
+            )}
+          />
           <AboutBlock data={data.dataJson} />
-          <Collection data={data.allMarkdownRemark.nodes} />
-          {/* <OriginStory data={data.} /> */}
+          <Collection
+            data={data.allMarkdownRemark.nodes.filter(
+              ({ frontmatter }) => frontmatter.name !== null
+            )}
+          />
+          <OriginStory
+            data={data.allMarkdownRemark.nodes.filter(({ frontmatter }) => frontmatter.content)}
+          />
           <Particle></Particle>
         </div>
       </section>
@@ -43,6 +54,7 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
+          content
           name
           title
           image {

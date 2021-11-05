@@ -59,7 +59,7 @@ collections:
         file: src/data/roadMap/road-map.md
         fields:
           - label: 'Content'
-            name: 'content'
+            name: 'body'
             widget: 'markdown'
 
   - name: 'halfDeadBear'

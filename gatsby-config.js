@@ -14,6 +14,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -47,7 +48,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/data/roadMap`,
-        name: 'config',
+        name: 'roadmap',
       },
     },
     {
@@ -57,6 +58,8 @@ module.exports = {
         name: 'bears',
       },
     },
+    'gatsby-transformer-remark',
+    'gatsby-transformer-remark-frontmatter',
     `gatsby-plugin-image`,
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
