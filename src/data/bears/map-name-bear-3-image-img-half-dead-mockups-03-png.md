@@ -1,4 +1,4 @@
 ---
-name: Bear 2
-image: /img/half-dead-mockups-03.png
+name: Half Dead yellow belly
+image: /img/half-dead-mockups-04.png
 ---
