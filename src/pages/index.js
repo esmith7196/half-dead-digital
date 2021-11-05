@@ -18,7 +18,7 @@ const Index = ({ data }) => {
           <HeaderBlock data={data.dataJson} images={data.allMarkdownRemark.nodes} />
           <AboutBlock data={data.dataJson} />
           <Collection data={data.allMarkdownRemark.nodes} />
-		  <OriginStory data={data.} />
+          {/* <OriginStory data={data.} /> */}
           <Particle></Particle>
         </div>
       </section>
