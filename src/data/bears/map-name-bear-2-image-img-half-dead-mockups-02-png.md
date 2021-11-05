@@ -1,4 +1,4 @@
 ---
-name: Bear 1
-image: /img/half-dead-mockups-02.png
+name: Half Dead black bear
+image: /img/half-dead-mockups-06.png
 ---

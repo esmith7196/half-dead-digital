@@ -1,4 +1,4 @@
 ---
-name: Bear 5
-image: /img/half-dead-mockups-06.png
+name: Half Dead fire bringer
+image: /img/half-dead-mockups-02.png
 ---
