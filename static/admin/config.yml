@@ -56,7 +56,7 @@ collections:
     files:
       - name: roadMap
         label: Road Map
-        file: src/data/road-map.json
+        file: src/data/roadMap/road-map.json
         fields:
           - label: 'Content'
             name: 'content'
