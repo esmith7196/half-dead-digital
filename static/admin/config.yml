@@ -51,6 +51,16 @@ collections:
             widget: 'date'
             default: ''
             format: 'MMM Do'
+  - name: roadMap
+    label: Road Map
+    files:
+      - name: roadMap
+        label: Road Map
+        file: src/data/road-map.json
+        fields:
+          - label: 'Content'
+            name: 'content'
+            widget: 'markdown'
 
   - name: 'halfDeadBear'
     label: Half Dead Bear
