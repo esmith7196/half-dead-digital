@@ -1,4 +1,4 @@
 ---
-name: Bear 6
-image: /img/half-dead-mockups-07.png
+name: Half Dead quiet night
+image: /img/half-dead-mockups-03.png
 ---
