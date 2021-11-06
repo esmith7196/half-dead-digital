@@ -13,27 +13,61 @@ const Index = ({ data }) => {
   console.log('data: ', data);
   return (
     <Layout>
-      <section className="section">
-        <div className="container">
-          <HeaderBlock
-            data={data.dataJson}
-            images={data.allMarkdownRemark.nodes.filter(
-              ({ frontmatter }) => frontmatter.name !== null
-            )}
-          />
-          <AboutBlock data={data.dataJson} />
-          <Collection
-            data={data.allMarkdownRemark.nodes.filter(
-              ({ frontmatter }) => frontmatter.name !== null
-            )}
-          />
-          <OriginStory
-            data={data.allMarkdownRemark.nodes.filter(({ frontmatter }) => frontmatter.content)}
-          />
-          <Particle></Particle>
-        </div>
-      </section>
-      <Footer />
+      {/* <section className="section paint-container"> */}
+      <div className="paint-container">
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="particle"></div>
+        <div className="border"></div>
+        <div className="border"></div>
+      </div>
+      <div className="container">
+        <HeaderBlock
+          data={data.dataJson}
+          images={data.allMarkdownRemark.nodes.filter(
+            ({ frontmatter }) => frontmatter.name !== null
+          )}
+        />
+        <AboutBlock data={data.dataJson} />
+        <Collection
+          data={data.allMarkdownRemark.nodes.filter(({ frontmatter }) => frontmatter.name !== null)}
+        />
+        <OriginStory
+          data={data.allMarkdownRemark.nodes.filter(({ html }) => html.length)[0].html}
+        />
+        <Footer />
+      </div>
+
+      <svg>
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+            <feColorMatrix
+              in="name"
+              mode="matrix"
+              values="1 0 0 0 0
+				      0 1 0 0 0 
+				      0 0 1 0 0 
+				      0 0 0 30 -15"
+            />
+            <feBlend in="SourceGraphic" />
+          </filter>
+        </defs>
+      </svg>
+
+      {/* </section> */}
     </Layout>
   );
 };
@@ -53,6 +87,7 @@ export const query = graphql`
     }
     allMarkdownRemark {
       nodes {
+        html
         frontmatter {
           content
           name

@@ -1,12 +1,21 @@
 $brand: #ED1F24
 
+body
+	overflow-y: scroll
+	overflow-x: hidden
+
 .tsparticles-canvas-el
 	z-index: -1
 .header-block
 	color: white
 main
+	overflow-x: hidden
 	position: relative
 	z-index: 99
+	width: 100%
+	height: 100vh
+	background-color: black
+	overflow-y: hidden
 	// background-image: url('https://envato-shoebox-0.imgix.net/c4aa/cf5b-30d4-4196-96c3-2ec762ce26d3/1a21.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=0d4d109e9fbe3d08953ff48db2562c73')
 #tsparticles
 	position: relative
@@ -15,6 +24,10 @@ main
 .container
 	max-width: 1200px
 	margin: auto
+	max-height: 100vh
+	overflow: scroll
+	padding-top: 8rem
+	overflow-x: hidden
 
 .section
 	padding: 12rem 2rem 5rem 2rem
@@ -24,6 +37,11 @@ main
 		line-height: 2.5rem
 		margin-top: 2rem
 		font-size: 18px
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
 
 .header-images
 	margin-top: -1.25rem
@@ -83,6 +101,127 @@ main
 
 .footer
 	background-color: transparent
+
+.content
+	margin-top: 4rem
+	color: white
+	h1, h2, p
+		color: white
+	h1
+		font-size: 2rem
+	p
+		line-height: 2
+
+.paint-container
+	overflow: hidden
+	position: absolute
+	filter: url(#goo)
+	width: 100%
+	height: 100vh
+	z-index: -1
+	overflow-x: hidden
+	// bottom: 0
+
+.particle
+	width: 100px
+	height: 100px
+	top: -20%
+	background-color: red
+	position: absolute
+	border-radius: 50%
+	animation: fall 15s infinite
+
+@keyframes fall
+	0%
+		top: -20%
+	20%
+		top: 0%
+	80%
+		top: 85%
+	100%
+		top: 100%
+
+.particle:nth-of-type(2n)
+	width: 60px
+	height: 60px
+
+.particle:nth-of-type(3n)
+	width: 120px
+	height: 120px
+
+.particle:nth-of-type(1)
+	left: 30%
+	animation-delay: 1s
+
+.particle:nth-of-type(2)
+	left: 60%
+	animation-delay: 2s
+
+.particle:nth-of-type(3)
+	left: 25%
+	animation-delay: 3s
+
+.particle:nth-of-type(4)
+	left: 75%
+	animation-delay: 4s
+
+.particle:nth-of-type(5)
+	left: 35%
+	animation-delay: 5s
+
+.particle:nth-of-type(6)
+	left: 50%
+	animation-delay: 6s
+
+.particle:nth-of-type(7)
+	left: 65%
+	animation-delay: 7s
+
+.particle:nth-of-type(8)
+	left: 35%
+	animation-delay: 8s
+
+.particle:nth-of-type(9)
+	left: 55%
+	animation-delay: 9s
+
+.particle:nth-of-type(10)
+	left: 55%
+	animation-delay: 10s
+
+.particle:nth-of-type(11)
+	left: 35%
+	animation-delay: 11s
+
+.particle:nth-of-type(12)
+	left: 35%
+	animation-delay: 12s
+
+.particle:nth-of-type(13)
+	left: 65%
+	animation-delay: 13s
+
+.particle:nth-of-type(14)
+	left: 40%
+	animation-delay: 14s
+
+.particle:nth-of-type(15)
+	left: 60%
+	animation-delay: 15s
+
+.border
+	position: absolute
+	background-color: red
+	width: 100%
+	height: 4%
+
+.border:nth-last-of-type(1)
+	top: 0
+	left: 0
+
+.border:nth-last-of-type(2)
+	bottom: 0
+	left: 0
 
 +mobile
 	.section
