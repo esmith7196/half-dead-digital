@@ -10,6 +10,7 @@ const AboutBlock = ({ data }) => {
         <div className="about-content">
           <h2 className="about-title">{data.aboutTitle}</h2>
           <p className="about-drop-date">Drop Date: {data.dropDate}</p>
+          <h2 className="subtitle">Origin Story</h2>
           <p className="about-desc">{data.aboutDescription}</p>
         </div>
       </div>
