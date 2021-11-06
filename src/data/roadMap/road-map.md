@@ -44,7 +44,7 @@ This collection will set the tone for what will be an ever expanding ‘Half Dea
 
 # Mint
 
-November 26, 2021 we will mint 4,000 individual Half Dead at a price or .36 sol.
+November 26, 2021 we will mint 4,000 individual Half Dead at a price of .36 sol.
 
 # Post Launch
 
