@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-links">
         <div className="footer-link">
           <a href="https://www.instagram.com/halfdeaddigital" alt="Half Dead Digital">
-            Follow On Instagram
+            @halfdeaddigital
           </a>
         </div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
             href="https://solo.to/nycrypto"
             alt="nycrypto"
           >
-            Backed By NYCrypto
+            NYCrypto
           </a>
         </div>
       </div>

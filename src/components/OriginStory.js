@@ -8,7 +8,6 @@ const OriginStory = ({ data }) => {
           __html: data,
         }}
       />
-      ;
     </div>
   );
 };
