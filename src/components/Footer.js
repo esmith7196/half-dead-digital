@@ -21,7 +21,7 @@ const Footer = () => {
             NYCrypto
           </a>
         </div>
-        <dv className="footer-link">
+        <div className="footer-link">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -30,7 +30,17 @@ const Footer = () => {
           >
             Twitter
           </a>
-        </dv>
+        </div>
+        <div className="footer-link">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://discord.gg/P44UkAq6xs"
+            alt="Half Dead Digital Discord"
+          >
+            Discord
+          </a>
+        </div>
       </div>
     </footer>
   );

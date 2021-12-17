@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import video from '../img/video.mp4';
 
 const HeaderBlock = ({ data, images }) => {
   const [activeImage, setActiveImage] = useState(0);
@@ -21,16 +22,22 @@ const HeaderBlock = ({ data, images }) => {
       <div className="columns is-7">
         <div className="column ">
           <img className="image" src={data.primaryLogo} alt="The Half Dead" />
-          <p>{data.description}</p>
+          {/* <p>{data.description}</p> */}
         </div>
         <div className="column is-5">
-          <img
+          <p>{data.description}</p>
+
+          {/* <img
             className="header-images"
             src={images[activeImage].frontmatter.image.childImageSharp.fixed.srcWebp}
             alt={images[activeImage].frontmatter.name}
-          />
+          /> */}
         </div>
       </div>
+      <video width="100%" height="300" controls>
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
   );
 };

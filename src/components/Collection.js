@@ -9,14 +9,16 @@ const Collection = ({ data }) => {
       </div>
 
       <div className="columns is-multiline">
-        {data.map(bear => (
-          <div key={bear.frontmatter.name} className="column is-4">
-            <img
-              src={bear.frontmatter.image.childImageSharp.fixed.srcWebp}
-              alt={bear.frontmatter.name}
-            />
-          </div>
-        ))}
+        {data
+          .filter(bear => bear.frontmatter.name !== 'NFT Steps')
+          .map(bear => (
+            <div key={bear.frontmatter.name} className="column is-4">
+              <img
+                src={bear.frontmatter.image.childImageSharp.fixed.srcWebp}
+                alt={bear.frontmatter.name}
+              />
+            </div>
+          ))}
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import AboutBlock from '../components/AboutBlock';
 import Collection from '../components/Collection';
 import Footer from '../components/Footer';
 import OriginStory from '../components/OriginStory';
+import Instructions from '../img/wallet-instructions.png';
 
 const Index = ({ data }) => {
   console.log('data: ', data);
@@ -30,6 +31,9 @@ const Index = ({ data }) => {
           <OriginStory
             data={data.allMarkdownRemark.nodes.filter(({ html }) => html.length)[0].html}
           />
+          <div className="centered">
+            <img src={Instructions} alt="NFT Instructions" />
+          </div>
           <Footer />
         </div>
       </section>
