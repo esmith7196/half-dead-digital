@@ -38,13 +38,21 @@ content: >
 ---
 # ROADMAP:
 
-# Pre Launch
+\- Intro Teaser Video Release 12.5.21
 
-This collection will set the tone for what will be an ever expanding ‘Half Dead’ world that will translate into the meta verse. Consider this your introduction to the inventor and his demonic creations.
+\- Full Website Update 12.17.21
+
+\- 1st Half Dead YouTube episode 1.7.22
+
+\- Public Mint 1.11.22
+
+\- 3D Printing Renders airdropped to holders 2.20.22
+
+\- 666 Winners announced for 3D Printed 1/1 
 
 # Mint
 
-November 26, 2021 we will mint 4,000 individual Half Dead at a price of .36 sol.
+January 11, 2021 we will mint 6,666 individual Half Dead at a price of .25 sol.
 
 # Post Launch
 
@@ -54,5 +62,14 @@ We want to be engaged with out community as much as possible, rewarding those wh
 
 # Rewards
 
-The main goal is to create and sustain a fun, gross place for all of our anger to run free! 
-Post launch we will airdrop sound bites of each character that can be claimed as well as other exclusive art, animation, and much more!
+\- 50% of HalfDead YouTube Ad Revenue distributed to community Holders (Monthly)
+
+\- 3D Printing Render for all holders
+
+\- HalfDead Metaverse Lounge Access 
+
+\- Claimable celebrity and personalized audio for your Half Dead NFT
+
+# Team
+
+\- Created by Connecticut Artist & Designer Dan Yatsinko aka Danimal Lector, powered by Nycrypto
