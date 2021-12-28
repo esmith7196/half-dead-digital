@@ -54,6 +54,8 @@ content: >
 
 January 11, 2021 we will mint 6,666 individual Half Dead at a price of .25 sol.
 
+![](/img/half-dead-promo-hero-banner-copy.png)
+
 # Post Launch
 
 After launch we will continue to keep bringing the “half dead” to life in many different ways. 
