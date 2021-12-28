@@ -32,10 +32,10 @@ const Index = ({ data }) => {
             data={data.allMarkdownRemark.nodes.filter(({ html }) => html.length)[0].html}
           />
 
-          <Footer />
           <div className="centered">
             <img src={Instructions} alt="NFT Instructions" />
           </div>
+          <Footer />
         </div>
       </section>
     </Layout>
