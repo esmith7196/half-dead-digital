@@ -36,42 +36,41 @@ content: >
 
   Post launch we will airdrop sound bites of each character that can be claimed as well as other exclusive art, animation, and much more!
 ---
-# ROADMAP:
+# Holder Rewards and Timeline
 
-\- Intro Teaser Video Release 12.5.21
+### Half Dead Digital Animated Series **(January 2022)**
 
-\- Full Website Update 12.17.21
+* Weekly Animated YouTube Series where select Community members can be selected to be involved in the animation
 
-\- 1st Half Dead YouTube episode 1.7.22
+  * Your Half-Dead can appear in an episode
+  * Chance to voice your half-dead character
 
-\- Public Mint 1.11.22
+### Metaverse Community **(Starting February 2022)**
 
-\- 3D Printing Renders airdropped to holders 2.20.22
+* We have acquired Tower DAO Residence #384-12   (Learn more about TowerDao https://towerdao.com/)
+* We will run community giveaways, contests, and release new Half Dead NFT items through our Residence.
+* Half Dead Residence Team - Team up with other Half Dead Holders to play and earn in the Tower DAO P2E Infinity Game. (Learn more about the game <https://towerdao.com/game>)
 
-\- 666 Winners announced for 3D Printed 1/1 
+### Community Royalties   (Starting March 2022)
 
-# Mint
+* %50 of The Half-Dead Digital YouTube Ad Revenue will be distributed to NFT Holders monthly via the community wallet. 
+* %50 of Trade Volume Royalties will be Distributed to NFT Holders monthly via the community wallet
 
-January 11, 2021 we will mint 6,666 individual Half Dead at a price of .25 sol.
+### Half Dead Merch (April 2022)
+
+* We will be adding a Merch store to our website with Half Dead Gear
+* Holders will be able to add their personal Half Dead to their Merch for purchase
+* Holders will have access to numbered  limited edition gear drops
+
+### **Claimable Audio (April 2022)**
+
+* At the end of each Animated Season, we will release limited claimable audio items from the episodes
+
+  * These clips can be sound effects, music, instrumentals, celebrity voice overs and more!
+
+### 3D Half Dead Items (Renders Airdropped Summer 2022)
+
+* All  Holders will be able to Claim 3D Render files of their Half Dead NFT
+* Select Holder will receive a physical 3D Print of their Half Dead Digital
 
 ![](/img/half-dead-promo-hero-banner-copy.png)
-
-# Post Launch
-
-After launch we will continue to keep bringing the “half dead” to life in many different ways. 
-We will be using the royalties to fund, develop and produce more content. 
-We want to be engaged with out community as much as possible, rewarding those who dare enter the Half Dead realm. 
-
-# Rewards
-
-\- 50% of HalfDead YouTube Ad Revenue distributed to community Holders (Monthly)
-
-\- 3D Printing Render for all holders
-
-\- HalfDead Metaverse Lounge Access 
-
-\- Claimable celebrity and personalized audio for your Half Dead NFT
-
-# Team
-
-\- Created by Connecticut Artist & Designer Dan Yatsinko aka Danimal Lector, powered by Nycrypto
