@@ -48,6 +48,7 @@ content: >
 ### Metaverse Community **(Starting February 2022)**
 
 * We have acquired Tower DAO Residence #384-12   (Learn more about TowerDao https://towerdao.com/)
+* ![](/img/half-dead-tower.jpg)
 * We will run community giveaways, contests, and release new Half Dead NFT items through our Residence.
 * Half Dead Residence Team - Team up with other Half Dead Holders to play and earn in the Tower DAO P2E Infinity Game. (Learn more about the game <https://towerdao.com/game>)
 
@@ -74,3 +75,7 @@ content: >
 * Select Holder will receive a physical 3D Print of their Half Dead Digital
 
 ![](/img/half-dead-promo-hero-banner-copy.png)
+
+# Half Dead Celebs
+
+The Half-Dead Celebs Honorary Collection are (12) 1of1 NFTs that are a part of the Half-Dead Universe. We have revealed the 1st 6 Half Dead Celebs and will be rolling all 12 out over the next few months. We have big plans to incorporate these Celebs into the Half Dead  Universe more to come!
