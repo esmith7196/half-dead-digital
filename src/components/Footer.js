@@ -1,6 +1,8 @@
 import * as React from 'react';
 import instagram from '../img/social/instagram.svg';
 
+import nycCrypto from '../img/logos/nycryptologo.png';
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -41,6 +43,12 @@ const Footer = () => {
             Discord
           </a>
         </div>
+      </div>
+      <div className="has-text-centered powered-by">
+        <p style={{ marginBottom: '8px' }}>Powered By NYCrypto: </p>
+        <a href="https://www.nycrypto.co/">
+          <img src={nycCrypto} alt="nycCrypto" />
+        </a>
       </div>
     </footer>
   );

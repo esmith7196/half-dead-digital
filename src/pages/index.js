@@ -10,6 +10,9 @@ import Footer from '../components/Footer';
 import OriginStory from '../components/OriginStory';
 import Instructions from '../img/solana-wallet.png';
 
+import HD1 from '../img/half-dead-1.jpg';
+import HD2 from '../img/half-dead-2.jpg';
+
 const Index = ({ data }) => {
   console.log('data: ', data);
   return (
@@ -32,9 +35,23 @@ const Index = ({ data }) => {
             data={data.allMarkdownRemark.nodes.filter(({ html }) => html.length)[0].html}
           />
 
-          <div className="centered">
-            <img src={Instructions} alt="NFT Instructions" />
+          <div className="columns">
+            <div className="column">
+              <img src={HD1} alt="" />
+            </div>
+            <div className="column">
+              <img src={HD2} alt="" />
+            </div>
           </div>
+
+          <p className="contact-text has-text-centered  has-text-white">
+            Half a Question or want to Collaborate with Half Dead Digital Contact -{' '}
+            <a href="mailto: HalfDeadDigital@gmail.com">HalfDeadDigital@gmail.com</a>
+          </p>
+
+          {/* <div className="centered">
+            <img src={Instructions} alt="NFT Instructions" />
+          </div> */}
           <Footer />
         </div>
       </section>
