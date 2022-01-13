@@ -19,13 +19,14 @@ const AboutBlock = ({ data }) => {
       </div>
       <div className="columns" style={{ marginTop: '40px' }}>
         <div className="column">
-          <div style={{ background: 'rgba(0,0,0,.4)', padding: '10px' }}>
+          <div style={{ padding: '10px' }}>
             <img src={inventor} alt="Inventor" />
           </div>
         </div>
         <div className="column">
-          <h3 className="about-title">The Creator</h3>
           <div className="spacer content">
+            <h3 className="about-title">The Creator</h3>
+
             <p>
               Danimal Lector is a Connecticut based artist whose focus for the past 20+ years was
               strictly music production and scoring. Dan - who is completely self taught - dove head
