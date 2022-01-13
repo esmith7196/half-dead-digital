@@ -17,7 +17,7 @@ const AboutBlock = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="columns">
+      <div className="columns" style={{ marginTop: '40px' }}>
         <div className="column">
           <div style={{ background: 'rgba(0,0,0,.4)', padding: '10px' }}>
             <img src={inventor} alt="Inventor" />
