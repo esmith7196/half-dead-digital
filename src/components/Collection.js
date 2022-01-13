@@ -10,7 +10,7 @@ const Collection = ({ data }) => {
 
       <div className="columns is-multiline">
         {data
-          .filter(bear => bear.frontmatter.name !== 'NFT Steps')
+          .filter((bear, idx) => bear.frontmatter.name !== 'NFT Steps' && idx < 3)
           .map(bear => (
             <div key={bear.frontmatter.name} className="column is-4">
               <img
