@@ -3,7 +3,6 @@ import video from '../img/video.mp4';
 import { AiOutlineTwitter, AiOutlineYoutube, AiOutlineInstagram } from 'react-icons/ai';
 import { BsDiscord } from 'react-icons/bs';
 
-import artemisLogo from '../img/logos/artemis-logo.png';
 import magicEdenLogo from '../img/logos/magic-eden-logo.svg';
 import solanaLogo from '../img/logos/solana-logo.png';
 import SolSeaLogo from '../img/logos/solsea-logo.svg';
@@ -95,9 +94,6 @@ const HeaderBlock = ({ data, images }) => {
               encoded on the Solana blockchain.
             </p>
             <div className="columns is-vcentered black-bg">
-              <div className="column">
-                <img src={artemisLogo} alt="artemisLogo" />
-              </div>
               <div className="column">
                 <img src={magicEdenLogo} alt="magicEdenLogo" />
               </div>
